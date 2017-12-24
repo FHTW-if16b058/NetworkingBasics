@@ -19,8 +19,8 @@ public class Result : NetworkBehaviour
 	
 	// Update is called once per frame
 	void Update () {
-        var obj = GameObject.Find("InpResult");
-        output = obj.GetComponent<InputField>();
+        //var obj = GameObject.Find("InpResult");
+        //output = obj.GetComponent<InputField>();
         output.text = _result.ToString();
     }
 }

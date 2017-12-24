@@ -20,6 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4369767631126530}
   - component: {fileID: 114397488581801866}
+  - component: {fileID: 114858876463524826}
   m_Layer: 0
   m_Name: CalcController
   m_TagString: Untagged
@@ -72,3 +73,17 @@ MonoBehaviour:
     i15: 153
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 0
+--- !u!114 &114858876463524826
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1552520352832614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae4ca6b408f585d488af981707bcc27c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  input: {fileID: 0}
+  ResultObject: {fileID: 0}
+  NumbersObject: {fileID: 0}
