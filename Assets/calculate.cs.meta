@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8d42eebe59ee42d4ebbb3bbba3b95063
+timeCreated: 1514050506
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - InputObj: {fileID: 1178287755412974, guid: 5442ccca976ff0f429c6f38c8f18ab6f, type: 2}
+  - CalcResultObj: {fileID: 1837867329200360, guid: 723396a0d229dde4296336e9000b06ea,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
