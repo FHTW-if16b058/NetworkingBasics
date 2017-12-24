@@ -4,23 +4,21 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Networking;
 
-public class Result : NetworkBehaviour
+public class Result : NetworkBehaviour                      // Grundlage für ResultObject
 {
-	[SyncVar]
+	[SyncVar]                                               // notwendig, damit das Ergebnis auf den Clients synchronisiert werden kann
     public int _result;
     public InputField output;
     
     // Use this for initialization
-    void Awake () {
-        //var obj = GameObject.Find("InpResult");
-        //output = obj.GetComponent<InputField>();
-        //output.text = _result.ToString();
+    void Start () {
+
     }
 	
 	// Update is called once per frame
 	void Update () {
         //var obj = GameObject.Find("InpResult");
         //output = obj.GetComponent<InputField>();
-        output.text = _result.ToString();
+        output.text = _result.ToString();                   // Verbindung zwischen Ergebnis und Output-Text
     }
 }

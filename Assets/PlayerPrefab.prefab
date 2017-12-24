@@ -20,6 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4394129725812734}
   - component: {fileID: 114628108567750862}
+  - component: {fileID: 114598476909765548}
   m_Layer: 0
   m_Name: PlayerPrefab
   m_TagString: Untagged
@@ -40,6 +41,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114598476909765548
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1296259878766152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bcf266b8df907e40a85a45d43af093f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  input: {fileID: 0}
+  ResultObject: {fileID: 0}
+  NumbersObject: {fileID: 0}
 --- !u!114 &114628108567750862
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -71,4 +86,4 @@ MonoBehaviour:
     i14: 119
     i15: 76
   m_ServerOnly: 0
-  m_LocalPlayerAuthority: 0
+  m_LocalPlayerAuthority: 1

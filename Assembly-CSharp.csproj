@@ -54,8 +54,8 @@
      <Compile Include="Assets\_switch.cs" />
      <Compile Include="Assets\_switch2Scene.cs" />
      <Compile Include="Assets\_SwitchScene.cs" />
-     <Compile Include="Assets\calculate.cs" />
      <Compile Include="Assets\compute.cs" />
+     <Compile Include="Assets\compute2.cs" />
      <Compile Include="Assets\Numbers.cs" />
      <Compile Include="Assets\Result.cs" />
  <Reference Include="UnityEngine.UI">
