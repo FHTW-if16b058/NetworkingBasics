@@ -6,3 +6,8 @@ __gibt derselbe oder ein anderer Player eine zweite Zahl ein und klickt wiederum
 Für den Host funktioniert das, und das Ergebnis wird auch am Client angezeigt. Aber das PROBLEM ist, dass es umgekehrt nicht geht, weil der Client die entspr. Command-Methode aufgrund einer fehlenden Berechtigung ("authority") nicht aufrufen kann.
 Ich hab schon einiges dazu recherchiert, aber ich bekomme es einfacht nicht hin. Bin echt schon am verzweifeln. Denn ich glaube, dass das der entscheidende Schritt wäre, damit das Networking klappt...
 Vielleicht hat jemand eine Idee?
+
+die relevanten Scripts sind:
+compute.cs
+Numbers.cs
+Result.cs
